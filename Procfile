@@ -1,0 +1,1 @@
+web: gunicorn kanbanboard.wsgi --log-file -
