@@ -83,13 +83,8 @@ WSGI_APPLICATION = 'kanbanboard.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'CONN_MAX_AGE': 3600,
-        'NAME': 'kanbanboard',  # database name
-        'USER': 'root',  # username
-        'PASSWORD': 'root',  # password
-        'HOST': '127.0.0.1',
-        'PORT': '3306'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
     }
 }
 
