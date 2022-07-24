@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-=&glge1i=c8h6086fzpwf70j815o$(_kq&dz&$lg%%v4*af%2f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com', 'sanukanbanbackend.herokuapp.com']
 
 # Application definition
 
@@ -138,4 +138,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
+    'https://sanu-kanban-board.herokuapp.com'
 )
